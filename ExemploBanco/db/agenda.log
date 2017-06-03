@@ -1,0 +1,6 @@
+/*C2*/SET SCHEMA PUBLIC
+CONNECT USER SA
+CREATE TABLE pessoa \u000a(\u000acodigo INTEGER PRIMARY KEY,\u000anome VARCHAR,\u000aendereco VARCHAR,\u000atelefone INT\u000a\u000a)
+drop table pessoa
+create table pessoa (\u000a\u0009codigo integer IDENTITY PRIMARY KEY,\u000a\u0009nome varchar(255),\u000a\u0009endereco varchar(255),\u000a\u0009telefone varchar(255)\u000a\u0009\u000a)
+DISCONNECT
